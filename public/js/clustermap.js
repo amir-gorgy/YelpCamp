@@ -125,4 +125,4 @@ map.getCanvas().style.cursor = 'pointer';
 map.on('mouseleave', 'clusters', () => {
 map.getCanvas().style.cursor = '';
 });
-});
+})
