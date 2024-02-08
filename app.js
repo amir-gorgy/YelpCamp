@@ -59,6 +59,10 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get('/', (req,res)=>{
+  res.render('home');
+})
+
 mongoose.connect("mongodb://localhost:27017/yelp-camp", {
   useNewUrlParser: true,
   useUnifiedTopology: true,

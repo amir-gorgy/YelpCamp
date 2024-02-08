@@ -2,7 +2,9 @@
     <div class="row">
         <h1 class="text-center"> New Campground</h1>
     </div>
-    <div class="col-6 offset-3">
+    <div class="col-md-6 offset-md-3">
+        <div class="card shadow">
+            <div class="card-body">
         <form action="/campgrounds" method="POST" novalidate class="needs-validation" enctype="multipart/form-data">
             <div class="form-group mb-2">
                 <label for="title">Title</label>
@@ -51,4 +53,6 @@
             <br>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+    </div>
+    </div>
     </div>
